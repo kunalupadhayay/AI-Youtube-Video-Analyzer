@@ -1,24 +1,32 @@
- # 🤖 AI YouTube Video Analyzer
+# 🤖 AI YouTube Video Analyzer
 
-An AI-powered YouTube Video Analyzer built using Python, Streamlit, and Groq LLM. This application analyzes YouTube videos by extracting available information and generating an intelligent summary, helping users quickly understand the content without watching the entire video.
+## 📖 Description
+An AI-powered YouTube Video Analyzer built using Python, Streamlit, and Groq LLM. It analyzes YouTube videos and generates intelligent summaries using AI.
 
-🚀 Features
-🔗 Analyze any YouTube video using its URL.
-🤖 AI-generated video summary.
-📄 Video overview and key information.
-⚡ Fast response using Groq LLM.
-🎨 Simple and user-friendly Streamlit interface.
-🛠️ Technologies Used
-Python
-Streamlit
-Groq API
-YouTube Transcript API
-python-dotenv
-Requests
-📂 Project Workflow
-User enters a YouTube video URL.
-The application retrieves the video transcript (if available).
-The transcript is sent to the Groq LLM.
-The AI analyzes the content.
-The generated summary and insights are displayed on the screen.
+## 🚀 Features
+- Analyze YouTube videos using URL
+- AI-generated summary
+- Video overview
+- Fast response using Groq LLM
+- Simple Streamlit interface
 
+## 🛠 Technologies Used
+- Python
+- Streamlit
+- Groq API
+- YouTube Transcript API
+- python-dotenv
+- Requests
+
+## 📂 Workflow
+1. User enters a YouTube URL.
+2. Transcript is extracted.
+3. Transcript is sent to Groq LLM.
+4. AI generates the summary.
+5. Results are displayed in Streamlit.
+
+## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
